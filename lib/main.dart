@@ -1,0 +1,24 @@
+import 'dart:html';
+
+import 'package:flutter/material.dart';
+
+//The main function is the starting point for all our flutter apps.
+void main() {
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.blueGrey,
+        appBar: AppBar(
+          title: const Text('I am Rich'),
+          backgroundColor: Colors.blueGrey[900],
+        ),
+        // ignore: prefer_const_constructors
+        body: Center(
+          child: const Image(
+            image: AssetImage('images/diamond.png'),
+          ),
+        ),
+      ),
+    ),
+  );
+}

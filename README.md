@@ -1,0 +1,2 @@
+# iamrich_app
+myflutterapp
